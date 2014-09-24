@@ -360,7 +360,7 @@ public class AutoGradingTest {
 
 		for (int i = 0; i < durations.length; ++i) {
 			videos.add(TestData.randomVideo());
-			videos.get(i).setDuration(durations[0]);
+			videos.get(i).setDuration(durations[i]);
 		}
 
 		// Add all the videos to the server
